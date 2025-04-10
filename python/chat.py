@@ -2,7 +2,7 @@ import json
 import httpx
 import sys
 
-def simple_chat(model="gemma3:1b", host="https://85454640-1575-11f0-9cd2-0242ac120002.eu-north.enterprise.teatree.chat"):
+def simple_chat(model="model", host="url"):
     print(f"Starting chat with {model}. Type 'exit' to end the conversation.")
     messages = []
     while True:
